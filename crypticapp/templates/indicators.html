@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+  <h1>{{ title }}</h1>
+  <ul>
+    <li><a href="/indicators/anagram/">Anagram</a></li>
+    <li><a href="/indicators/container/">Container</a></li>
+    <li><a href="/indicators/hidden/">Hidden</a></li>
+    <li><a href="/indicators/homophone/">Homophone</a></li>
+    <li><a href="/indicators/reversal/">Reversal</a></li>
+    <li><a href="/indicators/deletion/">Deletion</a></li>
+    <li><a href="/indicators/letter-selection/">Letter Selection</a></li>
+  </ul>
+{% endblock %}

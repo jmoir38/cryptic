@@ -1,0 +1,118 @@
+/* Styles for Macaroni's Cryptic Crossword Helper */
+html, body { height: 100%; }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* let the wrapper control horizontal centering */
+  padding: 0;
+  background-color: #fbfbf8; /* slightly warmer off-white page background */
+  color: #222; /* default text color */
+}
+
+/* Wrapper centers the page content and constrains width */
+.site-wrapper {
+  max-width: 940px;
+  margin: 2rem auto; /* center horizontally and add top/bottom breathing room */
+  padding: 1.5rem;
+  box-sizing: border-box;
+  background-color: transparent; /* keep wrapper transparent so page bg shows */
+}
+
+/* Header bar */
+.site-header {
+  margin-bottom: 0.8rem;
+  background-color: #2f2f2f; /* dark grey header bar */
+  padding: 0.75rem 1rem; /* consistent vertical/horizontal spacing */
+  border-radius: 6px;
+  color: #faf9f6; /* off-white header text */
+
+  display: flex;
+  flex-direction: column; /* stack title above nav */
+  align-items: flex-start; /* left-align title + nav */
+  justify-content: center;
+  gap: 0.4rem; /* smaller vertical gap between title and nav */
+
+  min-height: 64px; /* keep consistent header height across pages */
+  box-sizing: border-box;
+}
+
+/* Title styling: remove bottom margin and keep single-line layout on larger screens */
+.site-title {
+  margin: 0 0 0.25rem 0; /* small bottom margin so nav sits just below */
+    font-size: 2.2rem;
+  color: #faf9f6; /* off-white title */
+  line-height: 1; /* avoid extra height */
+  white-space: nowrap; /* keep title on one line when there's room */
+  overflow: hidden;
+  text-overflow: ellipsis; /* truncate if it's too long */
+}
+
+/* Navigation: make links a horizontal row with consistent spacing */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap; /* allow nav to wrap to next line if viewport is narrow */
+}
+
+.nav a {
+  color: #fbfbf8; /* off-white header text */
+  margin: 0; /* handled by gap */
+  padding: 0.4rem 0.8rem; /* consistent padding */
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+/* When nav links appear inside the dark header, make them blend with the header */
+.site-header .nav a {
+  background: rgba(255,255,255,0.02);
+  color: #ffffff;
+}
+
+header { margin-bottom: 1rem; }
+footer {
+  /* push footer to the bottom when there's little content */
+  margin-top: auto;
+  text-align: center; /* center the footer text */
+  padding-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Page content inner box to make tables and content readable */
+.page-content {
+  background: #ffffff; /* keep content area white for contrast */
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* Tables styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  background: #f3f3f3;
+}
+
+tbody td {
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid #eee;
+}
+
+/* Make layout responsive */
+@media (max-width: 640px) {
+  .site-wrapper { padding: 1rem; }
+  .site-title { font-size: 1.3rem; white-space: normal; }
+  .site-header { min-height: 56px; padding: 0.5rem; gap: 0.5rem; }
+  .nav a { padding: 0.3rem 0.5rem; font-size: 0.95rem; }
+}
