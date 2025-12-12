@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b16c17eb-e872-4fe3-9dfc-886c6d90187f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crypticapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypticapp/templates/abbreviations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypticapp/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypticapp/templates/indicator_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypticapp/templates/indicators.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypticapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/abbreviations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cryptic/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptic/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cryptic/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypticapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypticapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypticapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypticapp/templates/beginner.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/templates/beginner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypticapp/templates/indicators.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/templates/indicators.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +27,15 @@
     &quot;assignee&quot;: &quot;jmoir38&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jmoir38/cryptic&quot;,
-    &quot;accountId&quot;: &quot;e741b7be-52be-4cbe-b56d-228122b198cd&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jmoir38/cryptic.git",
+    "accountId": "9e77fd72-d9e1-4176-8830-813aecf2a7f1"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -57,8 +48,13 @@
   "keyToString": {
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/james/PycharmProjects/cryptic/crypticapp/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,6 +62,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.database.main",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,6 +93,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="localhost" />
@@ -111,8 +109,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
-        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-PY-253.28294.336" />
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
       </set>
     </attachedChunks>
   </component>
@@ -131,6 +129,7 @@
       <workItem from="1765385779529" duration="1427000" />
       <workItem from="1765445971645" duration="27000" />
       <workItem from="1765535193591" duration="1206000" />
+      <workItem from="1765543034594" duration="7860000" />
     </task>
     <servers />
   </component>

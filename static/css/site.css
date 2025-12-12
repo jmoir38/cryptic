@@ -6,9 +6,9 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0; /* let the wrapper control horizontal centering */
+  margin: 0;
   padding: 0;
-  background-color: #fbfbf8; /* slightly warmer off-white page background */
+  background-color: #3c0000; /* page background */
   color: #222; /* default text color */
 }
 
@@ -44,7 +44,6 @@ body {
   margin: 0 0 0.25rem 0; /* small bottom margin so nav sits just below */
     font-size: 2.2rem;
   color: #faf9f6; /* off-white title */
-  line-height: 1; /* avoid extra height */
   white-space: nowrap; /* keep title on one line when there's room */
   overflow: hidden;
   text-overflow: ellipsis; /* truncate if it's too long */
