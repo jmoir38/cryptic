@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b16c17eb-e872-4fe3-9dfc-886c6d90187f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypticapp/fixtures/indicators.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilotDiffState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cryptic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cryptic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypticapp/templates/beginner.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/templates/beginner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crypticapp/templates/indicators.html" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/templates/indicators.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypticapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypticapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crypticapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/abbreviations.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +35,12 @@
     &quot;assignee&quot;: &quot;jmoir38&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jmoir38/cryptic.git",
-    "accountId": "9e77fd72-d9e1-4176-8830-813aecf2a7f1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jmoir38/cryptic.git&quot;,
+    &quot;accountId&quot;: &quot;9e77fd72-d9e1-4176-8830-813aecf2a7f1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -50,7 +58,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
@@ -61,7 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.database.main",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -129,7 +139,8 @@
       <workItem from="1765385779529" duration="1427000" />
       <workItem from="1765445971645" duration="27000" />
       <workItem from="1765535193591" duration="1206000" />
-      <workItem from="1765543034594" duration="7860000" />
+      <workItem from="1765543034594" duration="10555000" />
+      <workItem from="1765585971468" duration="4619000" />
     </task>
     <servers />
   </component>

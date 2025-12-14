@@ -8,7 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #3c0000; /* page background */
+  background-color: #530000; /* page background */
   color: #222; /* default text color */
 }
 
@@ -24,10 +24,10 @@ body {
 /* Header bar */
 .site-header {
   margin-bottom: 0.8rem;
-  background-color: #2f2f2f; /* dark grey header bar */
+  background-color: #3c0000; /* dark grey header bar */
   padding: 0.75rem 1rem; /* consistent vertical/horizontal spacing */
   border-radius: 6px;
-  color: #faf9f6; /* off-white header text */
+  color: #faf6f6; /* off-white header text */
 
   display: flex;
   flex-direction: column; /* stack title above nav */
@@ -43,9 +43,8 @@ body {
 .site-title {
   margin: 0 0 0.25rem 0; /* small bottom margin so nav sits just below */
     font-size: 2.2rem;
-  color: #faf9f6; /* off-white title */
+  color: rgb(250, 246, 246); /* off-white title */
   white-space: nowrap; /* keep title on one line when there's room */
-  overflow: hidden;
   text-overflow: ellipsis; /* truncate if it's too long */
 }
 
@@ -58,7 +57,7 @@ body {
 }
 
 .nav a {
-  color: #fbfbf8; /* off-white header text */
+  color: #faf6f6; /* off-white header text */
   margin: 0; /* handled by gap */
   padding: 0.4rem 0.8rem; /* consistent padding */
   border: 1px solid rgba(255,255,255,0.12);
@@ -70,7 +69,7 @@ body {
 /* When nav links appear inside the dark header, make them blend with the header */
 .site-header .nav a {
   background: rgba(255,255,255,0.02);
-  color: #ffffff;
+  color: #faf9f6;
 }
 
 header { margin-bottom: 1rem; }
@@ -79,13 +78,13 @@ footer {
   margin-top: auto;
   text-align: center; /* center the footer text */
   padding-top: 1rem;
-  color: #666;
+  color: #faf9f6;
   font-size: 0.9rem;
 }
 
 /* Page content inner box to make tables and content readable */
 .page-content {
-  background: #ffffff; /* keep content area white for contrast */
+  background: #faf9f6; /* keep content area white for contrast */
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04);
@@ -100,12 +99,12 @@ table {
 thead th {
   text-align: left;
   padding: 0.5rem 0.75rem;
-  background: #f3f3f3;
+  background: #faf9f6;
 }
 
 tbody td {
   padding: 0.5rem 0.75rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #faf9f6;
 }
 
 /* Make layout responsive */

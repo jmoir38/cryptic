@@ -1,0 +1,118 @@
+[
+  {
+    "model": "crypticapp.anagramindicator",
+    "pk": 1,
+    "fields": {
+      "indicator": "mixed",
+      "word_class": "adjective"
+    }
+  },
+  {
+    "model": "crypticapp.anagramindicator",
+    "pk": 2,
+    "fields": {
+      "indicator": "scrambled",
+      "word_class": "adjective"
+    }
+  },
+  {
+    "model": "crypticapp.containerindicator",
+    "pk": 3,
+    "fields": {
+      "indicator": "around",
+      "word_class": "preposition",
+      "category": "containment"
+    }
+  },
+  {
+    "model": "crypticapp.containerindicator",
+    "pk": 4,
+    "fields": {
+      "indicator": "inside",
+      "word_class": "preposition",
+      "category": "containment"
+    }
+  },
+  {
+    "model": "crypticapp.deletionindicator",
+    "pk": 5,
+    "fields": {
+      "indicator": "without",
+      "word_class": "preposition"
+    }
+  },
+  {
+    "model": "crypticapp.deletionindicator",
+    "pk": 6,
+    "fields": {
+      "indicator": "dropping",
+      "word_class": "verb"
+    }
+  },
+  {
+    "model": "crypticapp.hiddenindicator",
+    "pk": 7,
+    "fields": {
+      "indicator": "within",
+      "word_class": "preposition"
+    }
+  },
+  {
+    "model": "crypticapp.hiddenindicator",
+    "pk": 8,
+    "fields": {
+      "indicator": "hidden",
+      "word_class": "adjective"
+    }
+  },
+  {
+    "model": "crypticapp.homophoneindicator",
+    "pk": 9,
+    "fields": {
+      "indicator": "sounds like",
+      "word_class": "phrase"
+    }
+  },
+  {
+    "model": "crypticapp.homophoneindicator",
+    "pk": 10,
+    "fields": {
+      "indicator": "we hear",
+      "word_class": "phrase"
+    }
+  },
+  {
+    "model": "crypticapp.letterselectionindicator",
+    "pk": 11,
+    "fields": {
+      "indicator": "initially",
+      "word_class": "adverb",
+      "selection": "first_letters"
+    }
+  },
+  {
+    "model": "crypticapp.letterselectionindicator",
+    "pk": 12,
+    "fields": {
+      "indicator": "finally",
+      "word_class": "adverb",
+      "selection": "last_letters"
+    }
+  },
+  {
+    "model": "crypticapp.reversalindicator",
+    "pk": 13,
+    "fields": {
+      "indicator": "back",
+      "word_class": "adverb"
+    }
+  },
+  {
+    "model": "crypticapp.reversalindicator",
+    "pk": 14,
+    "fields": {
+      "indicator": "returned",
+      "word_class": "verb"
+    }
+  }
+]
